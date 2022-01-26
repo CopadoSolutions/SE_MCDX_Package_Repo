@@ -6,6 +6,13 @@
             "package": "mcdxpackagedemo",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "mcdxpackage213",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "SePackageRepo",
@@ -13,6 +20,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "52.0",
     "packageAliases": {
-        "mcdxpackagedemo": "0Ho7Q000000GmfJSAS"
+        "mcdxpackagedemo": "0Ho7Q000000GmfJSAS",
+        "mcdxpackage213": "0Ho7Q000000GmfTSAS"
     }
 }
