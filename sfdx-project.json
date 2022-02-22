@@ -2,10 +2,10 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "package": "mcdxpackage213",
+            "default": true,
+            "package": "DevTrackerPackage",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": true
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "name": "SePackageRepo",
@@ -13,6 +13,6 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "52.0",
     "packageAliases": {
-        "mcdxpackage213": "0Ho7Q000000GmfTSAS"
+        "DevTrackerPackage": "0Ho7Q000000Gmh0SAC"
     }
 }
