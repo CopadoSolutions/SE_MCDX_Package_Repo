@@ -13,6 +13,10 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": "./es-base-styles",
+            "default": false
         }
     ],
     "name": "SePackageRepo",
