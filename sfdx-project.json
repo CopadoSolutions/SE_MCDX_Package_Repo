@@ -20,6 +20,10 @@
             "package": "ESBaseStylesLWC",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "./es-base-code",
+            "default": false
         }
     ],
     "name": "SePackageRepo",
