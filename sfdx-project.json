@@ -6,6 +6,13 @@
             "package": "DevTrackerPackage",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "./es-base-objects",
+            "package": "ESObjects",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "SePackageRepo",
@@ -13,6 +20,8 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "52.0",
     "packageAliases": {
-        "DevTrackerPackage": "0Ho7Q000000Gmh0SAC"
+        "DevTrackerPackage": "0Ho7Q000000Gmh0SAC",
+        "ESObjects": "0Ho7Q000000GmzPSAS",
+        "ESObjects@0.1.0-1": "04t7Q000000EeW1QAK"
     }
 }
