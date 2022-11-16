@@ -26,7 +26,13 @@
             "default": false,
             "package": "ESBaseCodeLWC",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "ESObjects",
+                    "versionNumber": "0.1.0.NEXT"
+                }
+            ]
         }
     ],
     "name": "SePackageRepo",
