@@ -33,6 +33,10 @@
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
+        },
+        {
+            "path": "./es-space-mgmt",
+            "default": false
         }
     ],
     "name": "SePackageRepo",
