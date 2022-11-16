@@ -30,7 +30,7 @@
             "dependencies": [
                 {
                     "package": "ESObjects",
-                    "versionNumber": "0.1.0.NEXT"
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         }
