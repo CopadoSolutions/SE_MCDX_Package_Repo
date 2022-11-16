@@ -36,7 +36,10 @@
         },
         {
             "path": "./es-space-mgmt",
-            "default": false
+            "default": false,
+            "package": "ESSpaceMgmtLWC",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "name": "SePackageRepo",
@@ -53,6 +56,7 @@
         "ESObjects@0.1.0-1-master": "04t7Q000000EeWGQA0",
         "ESBaseStylesLWC@0.1.0-2-master": "04t7Q000000EeWLQA0",
         "ESBaseStylesLWC@0.1.0-3-master": "04t7Q000000EeWQQA0",
-        "ESBaseCodeLWC@0.1.0-1-master": "04t7Q000000EeWVQA0"
+        "ESBaseCodeLWC@0.1.0-1-master": "04t7Q000000EeWVQA0",
+        "ESSpaceMgmtLWC": "0Ho7Q000000GmzeSAC"
     }
 }
