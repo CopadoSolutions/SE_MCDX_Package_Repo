@@ -1,89 +1,90 @@
 {
-    "packageDirectories": [
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": false,
+      "package": "DevTrackerPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
+    },
+    {
+      "path": "./es-base-objects",
+      "package": "ESObjects",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false
+    },
+    {
+      "path": "./es-base-styles",
+      "default": false,
+      "package": "ESBaseStylesLWC",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
+    },
+    {
+      "path": "./es-base-code",
+      "default": false,
+      "package": "ESBaseCodeLWC",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "dependencies": [
         {
-            "path": "force-app",
-            "default": false,
-            "package": "DevTrackerPackage",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "./es-base-objects",
-            "package": "ESObjects",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        },
-        {
-            "path": "./es-base-styles",
-            "default": false,
-            "package": "ESBaseStylesLWC",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "./es-base-code",
-            "default": false,
-            "package": "ESBaseCodeLWC",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "package": "ESObjects",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
-        },
-        {
-            "path": "./es-space-mgmt",
-            "default": true,
-            "package": "ESSpaceMgmtLWC",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "dependencies": [
-                {
-                    "package": "ESObjects",
-                    "versionNumber": "0.1.0.LATEST"
-                },
-                {
-                    "package": "ESBaseCodeLWC",
-                    "versionNumber": "0.1.0.LATEST"
-                },
-                {
-                    "package": "ESBaseStylesLWC",
-                    "versionNumber": "0.1.0.LATEST"
-                }
-            ]
-        },
-        {
-            "path": "./rs-obj",
-            "package": "abhi-rs-package",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
+          "package": "ESObjects",
+          "versionNumber": "0.1.0.LATEST"
         }
-    ],
-    "name": "SePackageRepo",
-    "pushPackageDirectoriesSequentially": true,
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0",
-    "packageAliases": {
-        "DevTrackerPackage": "0Ho7Q000000Gmh0SAC",
-        "ESObjects": "0Ho7Q000000GmzPSAS",
-        "ESObjects@0.1.0-1": "04t7Q000000EeW1QAK",
-        "ESBaseStylesLWC": "0Ho7Q000000GmzUSAS",
-        "ESBaseStylesLWC@0.1.0-1-master": "04t7Q000000EeWBQA0",
-        "ESBaseCodeLWC": "0Ho7Q000000GmzZSAS",
-        "ESObjects@0.1.0-1-master": "04t7Q000000EeWGQA0",
-        "ESBaseStylesLWC@0.1.0-2-master": "04t7Q000000EeWLQA0",
-        "ESBaseStylesLWC@0.1.0-3-master": "04t7Q000000EeWQQA0",
-        "ESBaseCodeLWC@0.1.0-1-master": "04t7Q000000EeWVQA0",
-        "ESSpaceMgmtLWC": "0Ho7Q000000GmzeSAC",
-        "ESBaseCodeLWC@0.1.0-1": "04t7Q000000EecFQAS",
-        "ESBaseStylesLWC@0.1.0-1": "04t7Q000000EecKQAS",
-        "ESSpaceMgmtLWC@0.1.0-1-master": "04t7Q000000EecPQAS",
-        "ESSpaceMgmtLWC@0.1.0-2-master": "04t7Q000000EecUQAS",
-        "abhi-rs-package": "0Ho7Q000000XZXQSA4"
+      ]
+    },
+    {
+      "path": "./es-space-mgmt",
+      "default": true,
+      "package": "ESSpaceMgmtLWC",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "dependencies": [
+        {
+          "package": "ESObjects",
+          "versionNumber": "0.1.0.LATEST"
+        },
+        {
+          "package": "ESBaseCodeLWC",
+          "versionNumber": "0.1.0.LATEST"
+        },
+        {
+          "package": "ESBaseStylesLWC",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    },
+    {
+      "path": "./rs-obj",
+      "package": "abhi-rs-package",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false
     }
+  ],
+  "name": "SePackageRepo",
+  "pushPackageDirectoriesSequentially": true,
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "DevTrackerPackage": "0Ho7Q000000Gmh0SAC",
+    "ESObjects": "0Ho7Q000000GmzPSAS",
+    "ESObjects@0.1.0-1": "04t7Q000000EeW1QAK",
+    "ESBaseStylesLWC": "0Ho7Q000000GmzUSAS",
+    "ESBaseStylesLWC@0.1.0-1-master": "04t7Q000000EeWBQA0",
+    "ESBaseCodeLWC": "0Ho7Q000000GmzZSAS",
+    "ESObjects@0.1.0-1-master": "04t7Q000000EeWGQA0",
+    "ESBaseStylesLWC@0.1.0-2-master": "04t7Q000000EeWLQA0",
+    "ESBaseStylesLWC@0.1.0-3-master": "04t7Q000000EeWQQA0",
+    "ESBaseCodeLWC@0.1.0-1-master": "04t7Q000000EeWVQA0",
+    "ESSpaceMgmtLWC": "0Ho7Q000000GmzeSAC",
+    "ESBaseCodeLWC@0.1.0-1": "04t7Q000000EecFQAS",
+    "ESBaseStylesLWC@0.1.0-1": "04t7Q000000EecKQAS",
+    "ESSpaceMgmtLWC@0.1.0-1-master": "04t7Q000000EecPQAS",
+    "ESSpaceMgmtLWC@0.1.0-2-master": "04t7Q000000EecUQAS",
+    "abhi-rs-package": "0Ho7Q000000XZXQSA4",
+    "abhi-rs-package@0.1.0-1-feature/US-0000371": "04t7Q000000Z3nhQAC"
+  }
 }
